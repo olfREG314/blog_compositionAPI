@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "blogPost 1",
+      "id": 1,
+      "body": "body 1",
+      "tags": ["tag1", "tag2", "tag3"]
+    },
+    {
+      "title": "blogPost 2",
+      "id": 2,
+      "body": "body 2",
+      "tags": ["tag4", "tag5", "tag6"]
+    }
+  ]
+}

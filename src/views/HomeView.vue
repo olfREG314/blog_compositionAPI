@@ -1,5 +1,5 @@
 <template>
-  <div class="home">home</div>
+  <div class="ref"><h1>ref</h1></div>
   <div ref="p">my name is {{ name }} and my age is {{ age }}</div>
   <button @click="handleClick()">click me</button>
   <input type="text" v-model="name" />
@@ -10,7 +10,7 @@
 
 import { ref } from "vue";
 export default {
-  name: "HomeView",
+  name: "ref",
   setup() {
     let name = ref("olfreg314");
     let age = ref(21);
